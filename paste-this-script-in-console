@@ -1,0 +1,14 @@
+if (typeof uetq === 'undefined') {
+    console.log("No Bing pixel is implemented, at least not with the object name 'uetq'",);
+} else if (
+    uetq.uetConfig &&
+    uetq.uetConfig.consent &&
+    uetq.uetConfig.consent.adStorageAllowed === true &&
+    uetq.uetConfig.consent.adStorageUpdated === true
+) {
+    console.log("%cBing Pixel detected and Consent is granted, you are all set! ", "color: green;");
+} else {
+    console.log("%cBing Pixel detected but Consent is not granted, something is wrong!", "color: red;");
+}
+console.log(`%c\nThis script is made by Ctrl Digital - If you need help or have questions about how to set up your Bing tracking, reach out to hello@ctrldigital.com`, '');
+
