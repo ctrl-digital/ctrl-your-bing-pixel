@@ -1,5 +1,5 @@
 if (typeof uetq === 'undefined') {
-    console.log("No Bing pixel is implemented, at least not with the object name 'uetq'",);
+    console.log("No Bing pixel is implemented, at least not with the standard object name 'uetq'",);
 } else if (
     uetq.uetConfig &&
     uetq.uetConfig.consent &&
