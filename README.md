@@ -1,7 +1,7 @@
 # ctrl-your-bing-pixel
 
 # How to Use the Script
-To check if your site is using these features, follow the steps below:
+To check if your site have setup the Bing pixel correct with Consent Mode, follow the steps below:
 
 - Download the script from this repository [here](paste-this-script-in-console)
 - Open your website in a web browser.
